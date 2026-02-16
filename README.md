@@ -75,8 +75,6 @@ https://github.com/user-attachments/assets/1dcba629-9388-41bc-a9a5-a5c0f5c12bc1
 - 🔍 **스마트 검색** - 카테고리, 지역별 체험 검색
 - 👤 **마이페이지** - 예약 내역, 예약 현황, 체험 관리, 프로필 수정
 
-
-
 ## 기술 스택
 
 ### **Core Stack**
@@ -119,21 +117,100 @@ https://github.com/user-attachments/assets/1dcba629-9388-41bc-a9a5-a5c0f5c12bc1
 | **Husky + lint-staged** | Git Hook으로 코드 품질 자동 검증 |
 | **Lighthouse CI**       | 성능 및 접근성 지속적 모니터링   |
 
+## R&R
+
+<table>
+  <tr>
+    <td>
+    <img src="./public/images/icons/nomadia.svg" alt="노마디아" width="200" />
+    </td>
+    <td>
+    <img width="700" alt="지윤" src="https://github.com/user-attachments/assets/5dc9a246-7db3-4770-98e2-1c8ca6500c96" />
+    </td>
+    <td>
+    <img width="700" alt="영현" src="https://github.com/user-attachments/assets/7a783360-154a-4bc8-be12-227523f40734" />
+    </td>
+    <td>
+    <img width="700" alt="준우" src="https://github.com/user-attachments/assets/a4e25b3d-5dd7-4579-afdf-f7c7721bf352" />
+    </td>
+    <td>
+    <img width="700" alt="동환" src="https://github.com/user-attachments/assets/af171698-31e7-4aec-a27f-e91394195e09" />
+    </td>
+  </tr>
+  <tr>
+    <th>팀원</th>
+    <td><strong>전지윤</strong>(팀장)</td>
+    <td><strong>김영현</strong></td>
+    <td><strong>김준우</strong></td>
+    <td><strong>유동환</strong></td>
+  </tr>
+  <tr>
+    <td><strong>페이지,<br> 기능</strong></td>
+    <td>
+      - 체험 상세 페이지<br>
+      - 404 페이지, 에러 페이지<br>
+    </td>
+    <td>
+      - 랜딩 페이지 기획 및 구현<br>
+      - 메인 페이지<br>
+      - 예약 내역 페이지<br>
+      - 체험 등록 페이지<br>
+    </td>
+    <td>
+      - 예약 현황 페이지<br>
+      - 체험 검색 기능<br>
+    </td>
+    <td>
+      - 로그인/회원가입 페이지<br>
+      - 내 정보/체험 수정 페이지<br>
+      - 내 체험 관리 페이지<br>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>(shared)<br> 공통 컴포넌트, <br> 공통 로직</strong></td>
+    <td>
+      - Pagination<br>
+      - Modal<br>
+      - Calendar<br>
+      - Infinite Scroll
+    </td>
+    <td>      
+      - Loading Spinner<br>
+      - Skeleton<br>
+      - Carousel<br>
+      - Error Message<br> 
+    </td>
+    <td>
+      - Dropdown<br>
+      - Header<br>
+      - Footer<br>
+    </td>
+    <td>- Sidebar</td>
+  </tr>
+  <tr>
+    <td><strong>기타</strong></td>
+    <td>- ESLint, Prettier, settings.json 설정<br>- 프로젝트 리디자인</td>
+    <td>- 공통 스타일 정의<br>- husky / LightHouse CI 설정 </td>
+    <td>- 데모 영상</td>
+    <td>- 배포<br> - 발표</td>
+  </tr>
+</table>
+
+<br>
 
 ## 프로젝트 문서
 
 ### 트러블슈팅
 
-| 분류     | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **UX & Interaction** | - [모달 ESC 키 제어 방식 (로컬 vs 전역이벤트)](https://www.notion.so/ESC-vs-268bbeae3e2b80e5a292f152e60e3d5d) <br> - [예약 중복 요청 방지하기](https://www.notion.so/269bbeae3e2b808588bad2c3d4045729) <br> - [[UX] 로그인 성공 후 이전 맥락으로 리다이렉트](https://www.notion.so/UX-268bbeae3e2b8012882bce823bdca54f) <br> - [[UX] 모달 warning 이미지 로드 방식 개선(preload 적용)](https://www.notion.so/UX-warning-preload-26bbbeae3e2b8017ada8e43ddc792d31)                                                 |
-| **Performance** | - [Props Hell 탈출기: Context API로 컴포넌트 최적화](https://dust-radiator-52b.notion.site/Props-Hell-Context-API-263b2ffc607580b5923cd91b1bd088d4?source=copy_link) <br> - [Form-data 보안 취약점 해결](https://dust-radiator-52b.notion.site/form-data-263b2ffc607580fc9f92f3a23698cdd7?source=copy_link)<br> - [Tanstack Query를 활용한 API 중복 요청 해결](https://dust-radiator-52b.notion.site/Tanstack-Query-API-263b2ffc607580df8b40d836d1afb1fc?source=copy_link) <br> - [코드 스플리팅 & lazy loading 적용을 통한 페이지 최적화](https://dust-radiator-52b.notion.site/Lazy-Loading-263b2ffc607580088b60c780d4d67af7?source=copy_link) |
-| **Stability & Security** | - [Next.js 앱 라우터 에러 핸들링: 각 에러 코드에 대한 UI 구현](https://www.notion.so/in-237bbeae3e2b80588e00f306680edaec) <br> - [커스텀 클래스 사용 시 타이포그래피 우선순위 문제](https://www.notion.so/248bbeae3e2b80adb9b2c8a16d298ea0)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Architecture** | - [Props Hell 탈출기: Context API로 컴포넌트 최적화](https://dust-radiator-52b.notion.site/Props-Hell-Context-API-263b2ffc607580b5923cd91b1bd088d4?source=copy_link) <br> - [Form-data 보안 취약점 해결](https://dust-radiator-52b.notion.site/form-data-263b2ffc607580fc9f92f3a23698cdd7?source=copy_link)<br> - [Tanstack Query를 활용한 API 중복 요청 해결](https://dust-radiator-52b.notion.site/Tanstack-Query-API-263b2ffc607580df8b40d836d1afb1fc?source=copy_link) <br> - [코드 스플리팅 & lazy loading 적용을 통한 페이지 최적화](https://dust-radiator-52b.notion.site/Lazy-Loading-263b2ffc607580088b60c780d4d67af7?source=copy_link) |
+| 작성자     | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **전지윤** | - [Next.js 앱 라우터 에러 핸들링: 각 에러 코드에 대한 UI 구현](https://www.notion.so/in-237bbeae3e2b80588e00f306680edaec) <br> - [모달 ESC 키 제어 방식 (로컬 vs 전역이벤트)](https://www.notion.so/ESC-vs-268bbeae3e2b80e5a292f152e60e3d5d) <br> - [예약 중복 요청 방지하기](https://www.notion.so/269bbeae3e2b808588bad2c3d4045729) <br> - [[UX] 로그인 성공 후 이전 맥락으로 리다이렉트](https://www.notion.so/UX-268bbeae3e2b8012882bce823bdca54f) <br> - [[UX] 모달 warning 이미지 로드 방식 개선(preload 적용)](https://www.notion.so/UX-warning-preload-26bbbeae3e2b8017ada8e43ddc792d31)                                                 |
+| **김영현** | - [Props Hell 탈출기: Context API로 컴포넌트 최적화](https://dust-radiator-52b.notion.site/Props-Hell-Context-API-263b2ffc607580b5923cd91b1bd088d4?source=copy_link) <br> - [Form-data 보안 취약점 해결](https://dust-radiator-52b.notion.site/form-data-263b2ffc607580fc9f92f3a23698cdd7?source=copy_link)<br> - [Tanstack Query를 활용한 API 중복 요청 해결](https://dust-radiator-52b.notion.site/Tanstack-Query-API-263b2ffc607580df8b40d836d1afb1fc?source=copy_link) <br> - [코드 스플리팅 & lazy loading 적용을 통한 페이지 최적화](https://dust-radiator-52b.notion.site/Lazy-Loading-263b2ffc607580088b60c780d4d67af7?source=copy_link) |
+| **김준우** | [커스텀 클래스 사용 시 타이포그래피 우선순위 문제](https://www.notion.so/248bbeae3e2b80adb9b2c8a16d298ea0)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ### 공통 컴포넌트, 로직
 
-| 설명                                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| - [모달 공통 컴포넌트 - 사용 가이드](https://www.notion.so/23abbeae3e2b8001b05bd84257659cca) <br> - [캘린더 공통 컴포넌트 - 설계 구조](https://www.notion.so/26cbbeae3e2b8018b061f355ba257cde) |
-| [공통 컴포넌트 docs](https://dust-radiator-52b.notion.site/DOCS-204b2ffc607580a4874bee3ab6056d51?source=copy_link)                                                                             |
+| 작성자     | 설명                                                                                                                                                                                           |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **전지윤** | - [모달 공통 컴포넌트 - 사용 가이드](https://www.notion.so/23abbeae3e2b8001b05bd84257659cca) <br> - [캘린더 공통 컴포넌트 - 설계 구조](https://www.notion.so/26cbbeae3e2b8018b061f355ba257cde) |
+| **김영현** | [공통 컴포넌트 docs](https://dust-radiator-52b.notion.site/DOCS-204b2ffc607580a4874bee3ab6056d51?source=copy_link)                                                                             |
