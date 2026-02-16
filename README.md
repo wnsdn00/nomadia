@@ -75,6 +75,7 @@ https://github.com/user-attachments/assets/1dcba629-9388-41bc-a9a5-a5c0f5c12bc1
 - 🔍 **스마트 검색** - 카테고리, 지역별 체험 검색
 - 👤 **마이페이지** - 예약 내역, 예약 현황, 체험 관리, 프로필 수정
 
+
 ## 기술 스택
 
 ### **Core Stack**
@@ -117,7 +118,7 @@ https://github.com/user-attachments/assets/1dcba629-9388-41bc-a9a5-a5c0f5c12bc1
 | **Husky + lint-staged** | Git Hook으로 코드 품질 자동 검증 |
 | **Lighthouse CI**       | 성능 및 접근성 지속적 모니터링   |
 
-## 프로젝트 문서
+
 
 ### 트러블슈팅
 
